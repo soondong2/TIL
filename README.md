@@ -1,3 +1,7 @@
-## Today I Learned (TIL)
+## TIL
 
-오늘 배운 내용을 기록하는 곳입니다.
+Today I Learned
+
+- 하루동안 배우고 공부한 내용을 기록하는 곳입니다.
+- 1일 1 commit !
+
