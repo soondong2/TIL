@@ -11,8 +11,10 @@ Today I Learned
 - Pandas
   - [DataFrame](https://github.com/soondong2/TIL/blob/main/AI%20SCHOOL/Pandas.md)
 - Seaborn
-  - [Seaborn](https://github.com/soondong2/TIL/blob/main/AI%20SCHOOL/Pandas.md)
+  - [Seaborn](https://github.com/soondong2/TIL/blob/main/AI%20SCHOOL/Seaborn.md)
 - Matplotlib
+- Pandas Profiling, sweetviz, autoviz
+  - [Pandas Profiling, sweetviz, autoviz](https://github.com/soondong2/TIL/blob/main/AI%20SCHOOL/Pandas%20Profiling%2C%20sweetviz%2C%20autoviz.md)
 - Statistics
   - 기술통계
       - 표본추출
