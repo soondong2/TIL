@@ -17,7 +17,7 @@ Today I Learned
   - [Pandas Profiling, sweetviz, autoviz](https://github.com/soondong2/TIL/blob/main/AI%20SCHOOL/Pandas%20Profiling%2C%20sweetviz%2C%20autoviz.md)
 - Statistics
   - 기술통계
-      - 표본추출
+      - [표본추출](https://github.com/soondong2/TIL/blob/main/Statistics/%ED%91%9C%EB%B3%B8%EC%B6%94%EC%B6%9C.md)
       - 데이터 요약
       - 확률분포
       - 표본분포
