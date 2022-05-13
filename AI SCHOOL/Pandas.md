@@ -120,6 +120,10 @@ df.corr()
 df["column"].value_counts()
 df["column"].value_counts(normalize=True)
 ```
+## crosstap
+```python
+pd.crosstab(index=df["cat_column"], columns=df["cat_column"])
+```
 
 ### groupby
 ```python
