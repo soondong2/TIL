@@ -5,6 +5,22 @@
 
 - seaborn의 그래프 스타일은 `darkgrid` , `whitegrid` , `dark` , `white` , `ticks` 5가지가 존재한다.
 - 아래 코드를 통해 matplotlib의 그래프 종류가 어떤 것들이 있는지 알아볼 수 있다.
+```python
+plt.style.available
+```
+
+### Import
+```python
+import pandas as pd
+import numpy as np
+import seaborn as sns
+sns.set_style("whitegrid")
+sns.set_context("talk")
+
+import matplotlib.pyplot as plt
+plt.style.use('seaborn')
+```
+
 
 ### countplot
 - 범주형 변수의 분포를 알아볼 때 사용한다.
@@ -65,8 +81,29 @@ sns.kdeplot(data=df, x="column", cut=15)
 
 ### histplot
 ```python
-sns.histplot(data=df, x="column", bins=10)  # bins : 구간
+sns.histplot(data=df, x="x", bins=10)  # bins : 구간
 ```
+
+- 모든 변수에 대해 히스토그램을 그린다.
+```python
+df.hist(figsize=(10, 10), bins=10)
+```
+
+```python
+sns.kdeplot(data=df, x="column")
+sns.displot(data=df, x="column", kde=True)  # 히스토그램 + kde
+```
+
+```python
+sns.kdeplot(data=df, x="column", shade=True)
+sns.rugplot(data=df, x="column")
+```
+
+### 잔차 시각화
+```python
+sns.residplot(data=df, x="column1", y="column2")
+```
+
 ### Jointplot
 - kind = ["kde", "scatter", "hist", "hex"]
 ```python
