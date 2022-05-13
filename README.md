@@ -14,6 +14,22 @@
   - [Seaborn](https://github.com/soondong2/TIL/blob/main/AI%20SCHOOL/Pandas.md)
 - Matplotlib
 - Statistics
+  - 기술통계
+      - 표본추출
+      - 데이터 요약
+      - 확률분포
+      - 표본분포
+  - 추론통계
+      - 점추정
+      - 구간추정
+      - 가설검정
+      - 통계분석방법론
+  - 분산분석
+      - 일원배치 분산분석
+      - 이원배치 분산분석 
+  - 회귀분석
+      - 단순회귀분석
+      - 다중회귀분석 
 
 ## Machine Learning
 
