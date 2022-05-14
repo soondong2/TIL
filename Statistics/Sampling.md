@@ -1,6 +1,6 @@
 # Today I Learned - 2022/05/13 Fri
 
-# 📌 표본추출(Sampling)
+## 📌 표본추출(Sampling)
 
 ## 표본조사(Sample Survey)
 - 집단의 구성원 모두를 조사하는 `전수조사`와 일부를 표본으로 하는 `표본조사`가 있다.
