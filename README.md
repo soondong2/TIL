@@ -14,12 +14,10 @@ Today I Learned
 
 ## Data Analysis
 - Pandas
-  - [DataFrame](https://github.com/soondong2/TIL/blob/main/AI%20SCHOOL/Pandas.md)
-- Seaborn
-  - [Seaborn](https://github.com/soondong2/TIL/blob/main/AI%20SCHOOL/Seaborn.md)
+  - [DataFrame](https://github.com/soondong2/TIL/blob/main/Data%20Analysis/Pandas.md)
+- [Seaborn](https://github.com/soondong2/TIL/blob/main/Data%20Analysis/Seaborn.md)
 - Matplotlib
-- Pandas Profiling, sweetviz, autoviz
-  - [Pandas Profiling, sweetviz, autoviz](https://github.com/soondong2/TIL/blob/main/AI%20SCHOOL/Pandas%20Profiling%2C%20sweetviz%2C%20autoviz.md)
+- [Pandas Profiling, sweetviz, autoviz](https://github.com/soondong2/TIL/blob/main/Data%20Analysis/Pandas%20Profiling%2C%20sweetviz%2C%20autoviz.md)
 
 ## Statistics
 - 기술통계
