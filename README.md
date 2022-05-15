@@ -23,7 +23,7 @@ Today I Learned
 - 통계
   - [표본추출(Sampling)](https://github.com/soondong2/TIL/blob/main/Statistics/Sampling.md)
   - [통게분석(statistical analysis)](https://github.com/soondong2/TIL/tree/main/Statistics)
-  - 확률분포
+  - [확률분포(probability distribution)](https://github.com/soondong2/TIL/blob/main/Statistics/probability%20distribution.md)
   - 추정과 가설검정
 - 기초 통계분석
   - 기술통계
@@ -54,4 +54,6 @@ Today I Learned
 
 ## DataBase
 - MySQL
-  - [데이터베이스 기본 개념](https://github.com/soondong2/TIL/blob/main/SQL/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4.md)
+  - [데이터베이스 기본 개념](https://github.com/soondong2/TIL/blob/main/SQL/Database.md)
+  - [데이터 조회](https://github.com/soondong2/TIL/blob/main/SQL/%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%A1%B0%ED%9A%8C.md)
+  - Group By
