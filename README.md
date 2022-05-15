@@ -24,7 +24,7 @@ Today I Learned
   - [표본추출(Sampling)](https://github.com/soondong2/TIL/blob/main/Statistics/Sampling.md)
   - [통게분석(statistical analysis)](https://github.com/soondong2/TIL/tree/main/Statistics)
   - [확률분포(probability distribution)](https://github.com/soondong2/TIL/blob/main/Statistics/probability%20distribution.md)
-  - 추정과 가설검정
+  - [추정과 가설검정(Hypothesis Test)](https://github.com/soondong2/TIL/blob/main/Statistics/Hypothesis%20Test.md)
 - 기초 통계분석
   - 기술통계
   - 인과관계 
