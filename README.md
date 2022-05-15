@@ -26,8 +26,9 @@ Today I Learned
   - [확률분포(probability distribution)](https://github.com/soondong2/TIL/blob/main/Statistics/probability%20distribution.md)
   - [추정과 가설검정(Hypothesis Test)](https://github.com/soondong2/TIL/blob/main/Statistics/Hypothesis%20Test.md)
 - 기초 통계분석
-  - 기술통계
+  - [기술통계(Descriptive Statistics)](https://github.com/soondong2/TIL/blob/main/Statistics/Descriptive%20Statistics.md)
   - 인과관계 
+  - 상관분석
 - 통계분석 방법론
   - t-검정
   - 분산분석
