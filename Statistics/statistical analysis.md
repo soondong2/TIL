@@ -1,4 +1,4 @@
-# Today I Learned - 2022/05/114 Sat
+# Today I Learned - 2022/05/14 Sat
 
 ## 📌 통계분석
 
