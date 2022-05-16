@@ -120,14 +120,36 @@ df.corr()
 df["column"].value_counts()
 df["column"].value_counts(normalize=True)
 ```
-## crosstap
+### crosstap
 ```python
 pd.crosstab(index=df["cat_column"], columns=df["cat_column"])
 ```
 
-### groupby
+### Group By
+
+- `agg` : 원하는 통계 값을 입력하여 볼 수 있다.
+- `unstack` : 마지막 index를 column으로 사용한다.
+
 ```python
 df.groupby(["column"]).mean()
 df.groupby(["column"]).sum()
 df.groupby(["column"]).describe()
+df.groupby(["column"])[["mpg"]].agg(["mean", "max", "sum"])
+df.groupby(["column"]).agg({"mpg":"mean", "cylinders":"sum"})
+df.groupby(by=["column1", "column2"])["column"].mean().unstack()
+```
+
+### Pivot table
+
+- pivot_table에는 내부에서 groupby를 사용한다.
+- 엑셀에 있는 피벗테이블과 같은 기능을 한다.
+
+|  | Pivot_table | Pivot |
+| --- | --- | --- |
+| 차이점 | 연산이 가능하다. | 형태만 바꿀 때 사용한다. |
+
+```python
+pd.pivot_table(data=df, index="cat_column")[["column"]]
+pd.pivot_table(data=df, index="cat_column", values="column")
+pd.pivot_table(data=df, index="cat_column", values="column", aggfunc=["mean", "max", "min"])
 ```
