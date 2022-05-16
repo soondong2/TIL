@@ -1,6 +1,6 @@
 # Today I Learned - 2022/05/10 Tue
----
-## 📌 Pandas
+
+#  Pandas
 ```python
 import pandas as pd
 import numpy as np
@@ -8,7 +8,7 @@ import numpy as np
 - Pandas에는 `DataFrame` 형태와 `Series` 형태가 존재한다.
 - `DataFrame` 은 2차원 형태, `Series` 는 1차원 벡터이다.
 
-## 📌 DataFrame
+## DataFrame
 ### 데이터프레임 생성
 ```python
 df = pd.DataFrmae()
