@@ -18,6 +18,7 @@ Today I Learned
 - [Seaborn](https://github.com/soondong2/TIL/blob/main/Data%20Analysis/Seaborn.md)
 - Matplotlib
 - [Pandas Profiling, sweetviz, autoviz](https://github.com/soondong2/TIL/blob/main/Data%20Analysis/Pandas%20Profiling%2C%20sweetviz%2C%20autoviz.md)
+- [Web Scraping](https://github.com/soondong2/TIL/blob/main/Data%20Analysis/Web%20scraping.md)
 
 ## Statistics
 - 통계
@@ -27,8 +28,7 @@ Today I Learned
   - [추정과 가설검정(Hypothesis Test)](https://github.com/soondong2/TIL/blob/main/Statistics/Hypothesis%20Test.md)
 - 기초 통계분석
   - [기술통계(Descriptive Statistics)](https://github.com/soondong2/TIL/blob/main/Statistics/Descriptive%20Statistics.md)
-  - 인과관계 
-  - 상관분석
+  - [상관분석(Correlation )](https://github.com/soondong2/TIL/blob/main/Statistics/Correlation%20Analysis.md)
 - 통계분석 방법론
   - t-검정
   - 분산분석
