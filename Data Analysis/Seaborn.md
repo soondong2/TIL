@@ -1,7 +1,9 @@
 # Today I Learned - 2022/05/10 Tue ~ 2022/05/11 Wed
 ---
 ## 📌 Seaborn
-- matplotlib을 추상화 해놓은 시각화 도구이다.
+![image](https://user-images.githubusercontent.com/100760303/168567017-d9840393-9a22-416a-8c28-93e7380ca7d0.png)
+
+ matplotlib을 추상화 해놓은 시각화 도구이다.
 
 - seaborn의 그래프 스타일은 `darkgrid` , `whitegrid` , `dark` , `white` , `ticks` 5가지가 존재한다.
 - 아래 코드를 통해 matplotlib의 그래프 종류가 어떤 것들이 있는지 알아볼 수 있다.
@@ -21,12 +23,49 @@ import matplotlib.pyplot as plt
 plt.style.use('seaborn')
 ```
 
-
 ### countplot
+
 - 범주형 변수의 분포를 알아볼 때 사용한다.
+- `value_counts()`를 자동으로 실행한 결과 값을 시각화 해준다.
+
 ```python
-sns.countplot(data=df, x="cat_column")  # 세로 축
-sns.countplot(data=df, y="cat_column")  # 가로 축
+sns.countplot(data=df, x="dataset")  # 세로 축
+sns.countplot(data=df, y="dataset")  # 가로 축
+```
+
+### stripplot
+
+- 범주형 변수의 분포를 알아볼 때 사용한다.
+
+```python
+sns.stripplot(data=df, x="cat_plot", y="column")
+```
+
+### swarmplot
+
+- 범주형 변수의 분포를 알아볼 때 사용한다.
+- `장점` : 점이 겹치지 않고 얼마나 많이 있는지 알 수 있다.
+- `단점` : 데이터가 너무 많으면 출력에 한계가 있다.
+- 그래프 사이즈를 조정하거나 점의 사이즈 `size` 를 조절해야 한다.
+
+```python
+sns.swarmplot(data=df, x="cat_plot", y="column")
+```
+
+### catplot
+
+```python
+sns.catplot(data=df, x="cat_column", y="column")
+sns.catplot(data=df, x="cat_column", y="column", kind="box")
+sns.catplot(data=df, x="cat_column", y="column", kind="violin")
+sns.catplot(data=df, x="cat_column", kind="count")
+```
+
+- `col` : 서브플롯을 그려준다.
+- `col_wrap` :  숫자만큼 그래프의 컬럼 개수를 지정해준다.
+
+```python
+sns.catplot(data=df, x="origin", y="mpg", kind="box", col="cylinders", col_wrap=3)
 ```
 
 ### barplot
