@@ -1,6 +1,6 @@
 # Today I Learned - 2022/05/16 Mon
 
-# Web Scraping
+# Finance DataReader
 ## 라이브러리
 
 - `finance-datareader` : 한국증권정보 및 금융 정보를 받아올 수 있다.
