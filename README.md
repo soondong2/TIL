@@ -26,8 +26,8 @@ Today I Learned
 ## Statistics
 - 통계
   - [표본추출(Sampling)](https://github.com/soondong2/TIL/blob/main/Statistics/Sampling.md)
-  - [통게분석(statistical analysis)](https://github.com/soondong2/TIL/tree/main/Statistics)
-  - [확률분포(probability distribution)](https://github.com/soondong2/TIL/blob/main/Statistics/probability%20distribution.md)
+  - [통게분석(Statistical Analysis)](https://github.com/soondong2/TIL/blob/main/Statistics/Statistical%20Analysis.md)
+  - [확률분포(Probability Distribution)](https://github.com/soondong2/TIL/blob/main/Statistics/Probability%20Distribution.md)
   - [추정과 가설검정(Hypothesis Test)](https://github.com/soondong2/TIL/blob/main/Statistics/Hypothesis%20Test.md)
 - 기초 통계분석
   - [기술통계(Descriptive Statistics)](https://github.com/soondong2/TIL/blob/main/Statistics/Descriptive%20Statistics.md)
