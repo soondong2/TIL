@@ -30,8 +30,11 @@ print(url)
 ```
 
 `[https://finance.naver.com/item/sise_day.naver?code=005930&page=1](https://finance.naver.com/item/sise_day.naver?code=005930&page=1)`
-
+<br>
+<br>
 ## Pandas read_html로 불러오기
+![image](https://user-images.githubusercontent.com/100760303/169006347-0d3edc71-106f-43c9-8c02-51fae9aec902.png)
+
 table 태그로 되어있음에도 불구하고 데이터를 불러올 수 없는 오류가 발생한다.
 
 ```python
@@ -40,14 +43,18 @@ table = pd.read_html(url, encoding="cp949")
 print(len(table))
 table[0]
 ```
+![image](https://user-images.githubusercontent.com/100760303/169006435-f6bdfb2f-4cce-4bd7-b68e-45135ac279ba.png)
 
 ### 📝 euc-kr과 cp949의 차이점
 
 |  | euc-kr | cp949 |
 | --- | --- | --- |
 | 차이점 | 2350자 | 11172자 |
+<br>
 
 ## requests를 통한 HTTP 요청
+![image](https://user-images.githubusercontent.com/100760303/169006559-0aff8741-34e7-43b1-885f-f240004673ee.png)
+
 `Request Method` 에 `GET` 이라고 되어 있으므로 `requests.get` 을 이용하여 가져온다.
 
 로봇인지 아닌지를 판별할 수 있도록 USER의 Agent 정보를 Header에 입력해주어야 한다.
@@ -67,6 +74,7 @@ response.text
 print(headers, type(headers), headers["user-agent"])
 # {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36'} <class 'dict'> Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36
 ```
+<br>
 
 ### 📝 HTTP 상태 코드
 
@@ -77,15 +85,16 @@ print(headers, type(headers), headers["user-agent"])
 | 300 | 리다이렉션 | 요청 완료를 위해 추가 작업 조치가 필요하다. |
 | 400 | 클라이언트 오류 | 오류 요청의 문법이 잘못되었거나 요청을 처리할 수 없다. |
 | 500 | 서버 오류 | 서버가 명백히 유효한 요청에 대해 실패했다. |
+<br>
 
 ## BeautifulSoup 을 통한 table 태그 찾기
 
 `lxml` 이나 `html` 을 보기 좋게 출력하기 위해 사용하는 모듈이다.
 
 `response.text` 에 비해 훨씬 깔끔하고 보기 좋게 출력된다.
+<br>
 
 <참고 문서>
-
 [https://www.crummy.com/software/BeautifulSoup/bs4/doc/](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 
 ```python
@@ -101,6 +110,7 @@ soup.find_all('a')
 soup.find_all('table')
 soup.table  # table 태그 찾기
 ```
+<br>
 
 - 주의 ❗ `list` 로는 읽어들일 수 없기 때문에 `str` 형식으로 바꿔서 사용한다.
 
@@ -112,13 +122,12 @@ table = pd.read_html(str(tables), encoding="cp949")
 print(len(table))
 table[0]
 ```
+<br>
 
 ### requests → BeautifulSoup → pd.read_html 과정 이유❓
+정상적인 접근인지를 확인하기 위해서이다.
 
-<aside>
-💡 정상적인 접근인지를 확인하기 위해서이다.
-
-</aside>
+<br>
 
 ### 📝 파서의 사용법 및 장단점
 
@@ -133,6 +142,7 @@ table[0]
 temp = table[0].dropna(how="all", axis=0)  # 결측치 제거
 temp
 ```
+<br>
 
 ## 페이지별 데이터 수집 함수 만들기
 
@@ -160,6 +170,7 @@ page_no = 1
 
 get_day_list(item_code, page_no)
 ```
+<br>
 
 ## 반복문을 통한 전체 일자 데이터 수집하기
 
@@ -249,4 +260,61 @@ file_name = f"{item_name}_{item_code}_{date}"  # '카카오페이_377300_2022.05
 
 df.to_csv(file_name, index=False)
 pd.read_csv(file_name)
+```
+<br>
+
+## 전체 과정을 하나의 함수로 만들기
+
+```python
+def get_day_list(item_code, page_no):
+
+    url = f"https://finance.naver.com/item/sise_day.naver?code={item_code}&page={page_no}"
+    headers = {'user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36'}
+
+    response = requests.get(url, headers=headers)
+    soup = bs(response.text, "lxml")
+    tables = soup.select("table")
+    table = pd.read_html(str(tables), encoding="cp949")
+    df = table[0].dropna(how="all", axis=0)
+    
+    return df
+
+def get_item_list(item_code, item_name):
+    page_no = 1
+    item_list = []
+
+    last_page = soup.find_all('a')[-1]["href"].split("=")[-1]
+
+    while True:
+        page = get_day_list(item_code, page_no)
+        item_list.append(page)
+        time.sleep(0.5)
+    
+        page_no += 1
+    
+        if page_no == int(last_page) + 1:
+            break
+            
+    df = pd.concat(item_list)
+    
+    df["종목코드"] = item_code
+    df["종목명"] = item_name
+    
+    cols = ['종목코드', '종목명', '날짜', '종가', '전일비', '시가', '고가', '저가', '거래량']
+    df = df[cols]
+    df = df.drop_duplicates()
+    
+    date = max(df["날짜"])
+    file_name = f"{item_name}_{item_code}_{date}.csv"
+    df.to_csv(file_name, index=False)
+```
+
+```python
+item_code = "323410"
+item_name = "카카오뱅크"
+```
+
+```python
+get_item_list(item_code, item_name)
+pd.read_csv(file_name)  # 데이터 불러오기
 ```
