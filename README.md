@@ -36,7 +36,7 @@ Today I Learned
   - t-검정
     - [일표본 t-검정(one sample t-test)](https://github.com/soondong2/TIL/blob/main/Statistics/One%20sample%20t-test.md)
     - [독립표본 t-검정(independent sample t-test](https://github.com/soondong2/TIL/blob/main/Statistics/Paired%20sample%20t-test.md)
-    - 대응표본 t-검정(paired sample t-test)
+    - [대응표본 t-검정(paired sample t-test)](https://github.com/soondong2/TIL/tree/main/Statistics)
   - 분산분석
   - 교차분석
 - 회귀분석
