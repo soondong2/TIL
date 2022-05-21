@@ -38,6 +38,7 @@ Today I Learned
     - [독립표본 t-검정(independent sample t-test](https://github.com/soondong2/TIL/blob/main/Statistics/Paired%20sample%20t-test.md)
     - [대응표본 t-검정(paired sample t-test)](https://github.com/soondong2/TIL/tree/main/Statistics)
   - 분산분석
+    - [분산분석(ANOVA)](https://github.com/soondong2/TIL/blob/main/Statistics/ANOVA.md) 
   - 교차분석
 - 회귀분석
   - 단순선형회귀분석
@@ -61,6 +62,6 @@ Today I Learned
 
 ## DataBase
 - MySQL
-  - [데이터베이스 기본 개념](https://github.com/soondong2/TIL/blob/main/SQL/Database.md)
+  - [데이터베이스(DataBase)](https://github.com/soondong2/TIL/blob/main/SQL/Database.md)
   - [SQL 1](https://github.com/soondong2/TIL/blob/main/SQL/SQL1.md)
   - [SQL 2](https://github.com/soondong2/TIL/blob/main/SQL/SQL2.md)
