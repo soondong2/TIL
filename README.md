@@ -38,7 +38,9 @@ Today I Learned
     - [독립표본 t-검정(independent sample t-test](https://github.com/soondong2/TIL/blob/main/Statistics/Paired%20sample%20t-test.md)
     - [대응표본 t-검정(paired sample t-test)](https://github.com/soondong2/TIL/tree/main/Statistics)
   - 분산분석
-    - [분산분석(ANOVA)](https://github.com/soondong2/TIL/blob/main/Statistics/ANOVA.md) 
+    - [분산분석(ANOVA)](https://github.com/soondong2/TIL/blob/main/Statistics/ANOVA.md)
+    - [일원배치 분산분석(One-way ANOVA)](https://github.com/soondong2/TIL/tree/main/Statistics)
+    - 이원배치 분산분석(Two-way ANOVA)
   - 교차분석
 - 회귀분석
   - 단순선형회귀분석
