@@ -64,6 +64,6 @@ Today I Learned
 
 ## DataBase
 - MySQL
-  - [데이터베이스(DataBase)](https://github.com/soondong2/TIL/blob/main/SQL/Database.md)
+  - [DataBase](https://github.com/soondong2/TIL/blob/main/SQL/Database.md)
   - [SQL 1](https://github.com/soondong2/TIL/blob/main/SQL/SQL1.md)
   - [SQL 2](https://github.com/soondong2/TIL/blob/main/SQL/SQL2.md)
