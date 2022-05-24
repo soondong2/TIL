@@ -1,6 +1,6 @@
 # Today I Learned - 2022/05/24 The
 
-# EDA
+# 서브플롯
 
 ## 시각화를 위한 폰트 설정
 ```python
