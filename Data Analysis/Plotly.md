@@ -43,7 +43,9 @@ px.bar(df_1)  # 모든 컬럼에 대한 막대그래프 그리기
 # facet_col을 이용한 서브플롯
 - `px..area` : 분포를 그린다.
 - `facet_col` : 서브플롯을 그려주는 기능을 한다.
+<br>
 
+주의 ❗ `facet_col`을 사용하려면 `df.columns.name`이 설정되어 있어야 한다.⭐
 ```python
 df_1.columns  # Index(['GOOG', 'AAPL', 'AMZN', 'FB', 'NFLX', 'MSFT'], dtype='object')
 
