@@ -15,16 +15,17 @@ Today I Learned
 ## Data Analysis
 - Pandas
   - [DataFrame](https://github.com/soondong2/TIL/blob/main/Data%20Analysis/Pandas.md)
-- [Seaborn](https://github.com/soondong2/TIL/blob/main/Data%20Analysis/Seaborn.md)
-- Matplotlib
-- [Pandas Profiling, sweetviz, autoviz](https://github.com/soondong2/TIL/blob/main/Data%20Analysis/Pandas%20Profiling%2C%20sweetviz%2C%20autoviz.md)
+- EDA
+  - [Seaborn](https://github.com/soondong2/TIL/blob/main/Data%20Analysis/Seaborn.md)
+  - Matplotlib
+  - [Pandas Profiling, sweetviz, autoviz](https://github.com/soondong2/TIL/blob/main/Data%20Analysis/Pandas%20Profiling%2C%20sweetviz%2C%20autoviz.md)
+  - [EDA1](https://github.com/soondong2/TIL/blob/main/Data%20Analysis/EDA1.md)
 - Web Scraping
   - [Web Scraping1](https://github.com/soondong2/TIL/blob/main/Data%20Analysis/Web%20scraping1.md)
   - [Web Scraping2](https://github.com/soondong2/TIL/blob/main/Data%20Analysis/Web%20Scraping2.md)
   - [Web Scraping3](https://github.com/soondong2/TIL/blob/main/Data%20Analysis/Web%20Scraping3.md)
   - [Web Scraping4](https://github.com/soondong2/TIL/blob/main/Data%20Analysis/Web%20Scraping4.md)
   - [Web Scraping5](https://github.com/soondong2/TIL/blob/main/Data%20Analysis/Web%20Scraping5.md)
-  - [EDA1](https://github.com/soondong2/TIL/blob/main/Data%20Analysis/EDA1.md)
 ## Statistics
 - 통계
   - [표본추출(Sampling)](https://github.com/soondong2/TIL/blob/main/Statistics/Sampling.md)
