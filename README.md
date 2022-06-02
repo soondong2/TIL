@@ -44,7 +44,7 @@ Today I Learned
   - 분산분석
     - [분산분석(ANOVA)](https://github.com/soondong2/TIL/blob/main/Statistics/ANOVA.md)
     - [일원배치 분산분석(One-way ANOVA)](https://github.com/soondong2/TIL/blob/main/Statistics/One-way%20ANOVA.md)
-    - 이원배치 분산분석(Two-way ANOVA)
+    - [이원배치 분산분석(Two-way ANOVA)](https://github.com/soondong2/TIL/blob/main/Statistics/Tow-way%20ANOVA.md)
   - 교차분석
 - 회귀분석
   - 단순선형회귀분석
