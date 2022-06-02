@@ -10,7 +10,7 @@ Today I Learned
  - [입출력(input)](https://github.com/soondong2/TIL/blob/main/Python/input.md)
  - [조건문(if)](https://github.com/soondong2/TIL/blob/main/Python/if.md)
  - [반복문(for, while)](https://github.com/soondong2/TIL/blob/main/Python/for%2C%20while.md)
- - [함수(def)](https://github.com/soondong2/TIL/blob/main/Python/function.md)
+ - [사용자 정의 함수(def)](https://github.com/soondong2/TIL/blob/main/Python/function.md)
 
 ## Data Analysis
 - Pandas
