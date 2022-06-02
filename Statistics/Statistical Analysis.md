@@ -1,6 +1,6 @@
 # Today I Learned - 2022/05/14 Sat
 
-## 📌 통계분석
+# 통계분석
 
 ## 기술통계(description statistic)
 - 집단들의 특성을 수량화하여 객관적인 데이터로 나타내는 통계분석 방법론이다.
