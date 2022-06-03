@@ -72,3 +72,8 @@ Today I Learned
   - [SQL 1](https://github.com/soondong2/TIL/blob/main/SQL/SQL1.md)
   - [SQL 2](https://github.com/soondong2/TIL/blob/main/SQL/SQL2.md)
   - [SQL_3](https://github.com/soondong2/TIL/blob/main/SQL/SQL3.md)
+
+## Certificate
+- 빅데이터분석기사
+  - 작업형 1유형
+  - 작업형 2유형
