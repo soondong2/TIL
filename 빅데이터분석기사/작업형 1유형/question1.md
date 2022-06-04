@@ -90,3 +90,26 @@ result = prev_skew + prev_kurt + after_skew + after_kurt
 print(round(result, 2))
 ```
 9.35
+
+<br>
+
+## 5번
+- 주어진 데이터 중 basic1.csv에서 `f1`컬럼 결측 데이터를 제거하고
+- `city`와 `f2`을 기준으로 묶어 합계를 구하고
+- `city`가 경기이면서 `f2`가 `0`인 조건에 만족하는 `f1` 값을 구하시오.
+```python
+import pandas as pd
+import numpy as np
+
+basic = pd.read_csv("C:/data/basic1.csv")
+
+basic = basic[~basic["f1"].isnull()]
+basic = basic.groupby(["city", "f2"], as_index=False)[["f1"]].sum()
+
+result = basic[(basic["city"] == "경기") & (basic["f2"] == 0)]["f1"].values[0]
+print(result)
+```
+833.0
+
+<br>
+
