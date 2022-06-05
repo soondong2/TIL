@@ -84,7 +84,7 @@ print(result)
 - 2022년 5월 sales의 중앙값을 구하시오.
 <br>
 
-💻 Datetime을 이용한 방법
+💻 `Datetime`을 이용한 방법
 ```python
 import pandas as pd
 import numpy as np
@@ -100,7 +100,7 @@ print(result)
 ```
 <br>
 
-💻 str.contains를 이용한 방법
+💻 `str.contains`를 이용한 방법
 ```python
 import pandas as pd
 import numpy as np
