@@ -13,7 +13,7 @@
 
 ```sql
 SELECT
-	item.id,
+    item.id,
     item.name,
     stock.item_id,
     stock.inventory_count
@@ -28,7 +28,7 @@ ON item.id = stock.item_id;
 
 ```sql
 SELECT
-	item.id,
+    item.id,
     item.name,
     stock.item_id,
     stock.inventory_count
@@ -42,7 +42,7 @@ ON item.id = stock.item_id;
 
 ```sql
 SELECT
-	i.id,
+    i.id,
     i.name,
     s.item_id,
     s.inventory_count
@@ -59,7 +59,7 @@ ON i.id = s.item_id;
 
 ```sql
 SELECT
-	i.id,
+    i.id,
     i.name,
     s.item_id,
     s.inventory_count
@@ -74,7 +74,7 @@ ON i.id = s.item_id;
 
 ```sql
 SELECT
-	old.id AS old_id,
+    old.id AS old_id,
     old.name AS old_name,
     new.id AS new_id,
     new.name AS new_name
@@ -84,7 +84,7 @@ ON old.id = new.id;
 
 ```sql
 SELECT
-	old.id AS old_id,
+    old.id AS old_id,
     old.name AS old_name,
     new.id AS new_id,
     new.name AS new_name
@@ -109,7 +109,7 @@ USING(id);
 
 ```sql
 SELECT
-		id,
+    id,
     nation,
     count
 FROM Summer_Olympic_Medal
@@ -124,7 +124,7 @@ FROM Winter_Olympic_Medal;
 
 ```sql
 SELECT
-	id,
+    id,
     nation,
     count
 FROM Summer_Olympic_Medal
@@ -140,7 +140,7 @@ FROM Winter_Olympic_Medal;
 
 ```sql
 SELECT
-	p.id,
+    p.id,
     p.player_name,
     p.team_name,
     t.team_name,
@@ -183,7 +183,7 @@ ON m1.age = m2.age;
 
 ```sql
 SELECT
-	m.email,
+    m.email,
     m.sign_up_day,
     i.name,
     i.registration_date
