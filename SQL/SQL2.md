@@ -34,17 +34,16 @@ END
 
 ```sql
 SELECT email,
-CASE age
-		WHEN 29 THEN '스물 아홉 살'
-    WHEN 30 THEN '서른 살'
-    ELSE age
-END
+(CASE age
+	WHEN 29 THEN '스물 아홉 살'
+	WHEN 30 THEN '서른 살'
+	ELSE age
+END)
 FROM member;
 ```
 <br>
 
 ### 2. 검색 CASE
-
 사용자가 직접 **조건을 설정**하여 THEN 뒤의 값을 반환한다.
 
 💻 문법
@@ -59,19 +58,18 @@ END
 ```
 
 💻 예시
-
 ```sql
 SELECT
-		email,
-    CONCAT(height, 'cm', ', ', weight, 'kg') AS '키와 몸무게',
-    weight / ((height/100) * (height/100)) AS BIM,
-(CASE
+	email,
+	CONCAT(height, 'cm', ', ', weight, 'kg') AS '키와 몸무게',
+	weight / ((height/100) * (height/100)) AS BIM,
+	(CASE
 		WHEN weight IS NULL OR height IS NULL THEN '비만 여부 알 수 없음'
-    WHEN weight / ((height/100) * (height/100)) >= 25 THEN '과제충 또는 비만'
-    WHEN weight / ((height/100) * (height/100)) >= 18.5
-		AND  weight / ((height/100) * (height/100)) < 25 THEN '정상'
+		WHEN weight / ((height/100) * (height/100)) >= 25 THEN '과제충 또는 비만'
+    		WHEN weight / ((height/100) * (height/100)) >= 18.5
+			AND  weight / ((height/100) * (height/100)) < 25 THEN '정상'
 		ELSE '저체중'
-END) AS obesity_check
+	END) AS obesity_check
 FROM member
 ORDER BY obesity_check ASC;
 ```
