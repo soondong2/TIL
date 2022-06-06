@@ -1,6 +1,6 @@
 # Today I Learned - 2022/05/09 Mon
 
-## 📌 함수
+## 함수
 ```python
 def 함수명(매개변수):
   실행할 소스 코드
@@ -9,7 +9,9 @@ def 함수명(매개변수):
 
 - `global` : 함수 밖에 선언된 변수를 참조
 
-### 📌 람다 표현식
+<br>
+
+### 람다 표현식
 ```python
 print((lambda a, b: a + b)(3, 7))
 ```
@@ -27,7 +29,9 @@ print(sorted(array, key=my_key)
 print(sorted(array, key=lambda x: x[0]  # key를 기준으로 정렬
 ```
 
-## 📌 기타
+<br>
+
+## 기타
 ### random
 ```python
 import random
