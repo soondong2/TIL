@@ -96,6 +96,7 @@ result = basic.groupby(["range"])["age"].median().sum()
 print(result)
 ```
 165.0
+
 <br>
 
 ## 15번
