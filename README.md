@@ -2,9 +2,6 @@
 
 Today I Learned
 
-- 하루동안 배우고 공부한 내용을 기록하는 곳입니다.
-- 1일 1 commit ❗
-
 ## Python
  - [자료형(type)](https://github.com/soondong2/TIL/blob/main/Python/type.md)
  - [입출력(input)](https://github.com/soondong2/TIL/blob/main/Python/input.md)
