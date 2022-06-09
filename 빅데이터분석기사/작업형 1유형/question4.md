@@ -28,7 +28,7 @@ print(result)
 ## 17번
 - 새로운 컬럼(1일 이전 시차 컬럼)을 만들고
 - `Events`가 1이면서 `Sales`가 1000000이하인 조건에 맞는 새로운 컬럼 합을 구하시오.
-```oython
+```python
 import pandas as pd
 import numpy as np
 
