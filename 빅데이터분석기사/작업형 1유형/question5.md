@@ -103,5 +103,4 @@ infp = basic[basic["f4"] == "INFP"]["f1"].std()
 result = abs(enfj - infp)
 print(result)
 ```
-
-<br>
+5.859621525876811
