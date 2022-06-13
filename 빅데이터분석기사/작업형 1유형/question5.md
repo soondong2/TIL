@@ -89,5 +89,19 @@ print(result)
 <br>
 
 ## 25번
+- 주어진 데이터 중 basic1.csv에서 `f4`컬럼 값이 `ENFJ`와 `INFP`인 `f1`의 표준편차 차이를 `절대값`으로 구하시오.
+```python
+import pandas as pd
+import numpy as np
+from sklearn.preprocessing import MinMaxScaler
+
+basic = pd.read_csv("C:/data/basic1.csv")
+
+enfj = basic[basic["f4"] == "ENFJ"]["f1"].std()
+infp = basic[basic["f4"] == "INFP"]["f1"].std()
+
+result = abs(enfj - infp)
+print(result)
+```
 
 <br>
