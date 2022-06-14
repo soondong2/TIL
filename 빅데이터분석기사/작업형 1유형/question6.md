@@ -43,6 +43,23 @@ print(result)
 <br>
 
 ## 28번
+- 자동차 데이터 셋에서 `qsec` 컬럼을 `Min-MaxScale`로 변환 후 `0.5` 보다 큰 값을 가지는 `레코드(row) 수`를 구하시오.
+```python
+import pandas as pd
+import numpy as np
+from sklearn.preprocessing import MinMaxScaler
+
+mtcars = pd.read_csv("C:/data/mtcars.csv")
+
+scale = MinMaxScaler()
+mtcars["qsec"] = scale.fit_transform(mtcars[["qsec"]])
+
+result = mtcars[mtcars["qsec"] > 0.5].shape[0]
+print(result)
+```
+9
+
+<br>
 
 ## 29번
 
