@@ -18,12 +18,14 @@ Today I Learned
   - [Pandas Profiling, sweetviz, autoviz](https://github.com/soondong2/TIL/blob/main/Data%20Analysis/Pandas%20Profiling%2C%20sweetviz%2C%20autoviz.md)
   - [Subplot](https://github.com/soondong2/TIL/blob/main/Data%20Analysis/EDA1.md)
   - [Plotly](https://github.com/soondong2/TIL/blob/main/Data%20Analysis/Plotly.md)
+  - [folium](https://github.com/soondong2/TIL/blob/main/Data%20Analysis/folium.md)
 - Web Scraping
   - [Web Scraping1](https://github.com/soondong2/TIL/blob/main/Data%20Analysis/Web%20scraping1.md)
   - [Web Scraping2](https://github.com/soondong2/TIL/blob/main/Data%20Analysis/Web%20Scraping2.md)
   - [Web Scraping3](https://github.com/soondong2/TIL/blob/main/Data%20Analysis/Web%20Scraping3.md)
   - [Web Scraping4](https://github.com/soondong2/TIL/blob/main/Data%20Analysis/Web%20Scraping4.md)
   - [Web Scraping5](https://github.com/soondong2/TIL/blob/main/Data%20Analysis/Web%20Scraping5.md)
+- [streamlit](https://github.com/soondong2/TIL/blob/main/Data%20Analysis/streamlit.md)
 - 대용량 데이터 처리
   - [Downcast](https://github.com/soondong2/TIL/blob/main/Data%20Analysis/Downcast.md)
   - [Apache Parquet](https://github.com/soondong2/TIL/blob/main/Data%20Analysis/Apache%20Parquet.md) 
