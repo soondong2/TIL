@@ -58,11 +58,3 @@ result = mtcars[mtcars["qsec"] > 0.5].shape[0]
 print(result)
 ```
 9
-
-<br>
-
-## 29번
-
-## 30번
-
-## 31번
