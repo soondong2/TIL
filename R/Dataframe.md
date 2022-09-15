@@ -1,6 +1,12 @@
 # Today I Learned - 2022/09/14 Wed
 
 # DataFrame
+
+## csv 파일 불러오기
+```r
+df <- read.csv('파일명.csv', header=TRUE)
+```
+
 ## 열 이름 변경
 벡터 객체를 입력할 때는 `c()` 함수를 사용하여 결합시켜준다.
 ```r
