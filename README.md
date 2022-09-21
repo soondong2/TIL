@@ -94,3 +94,6 @@ Today I Learned
     - [문제풀이4](https://github.com/soondong2/TIL/blob/main/%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EA%B8%B0%EC%82%AC/question4.md)
     - [문제풀이5](https://github.com/soondong2/TIL/blob/main/%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EA%B8%B0%EC%82%AC/question5.md)
     - [문제풀이6](https://github.com/soondong2/TIL/blob/main/%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EA%B8%B0%EC%82%AC/question6.md)
+
+## 필사
+- [Spaceship Titanic](https://github.com/soondong2/TIL/tree/main/%ED%95%84%EC%82%AC)
