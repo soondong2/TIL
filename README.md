@@ -75,11 +75,16 @@ Today I Learned
 - 다차원척도법
 - 주성분분석
 ## Machine Learning
+- 지도학습
+  - 분류
+  - 회귀
+- 비지도학습 
+  - 군집화
+  - 차원축소
+- 모델 평가
+- 전처리
 
 ## Deep Learning
-
-## MLOps
-- [MLOps란?](https://github.com/soondong2/TIL/blob/main/MLOps/MLOps%EB%9E%80%3F.md)
 
 ## DataBase
 - MySQL
