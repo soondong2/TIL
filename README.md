@@ -8,7 +8,8 @@ Today I Learned
   - [데이터 정제(Data Cleaning)](https://github.com/soondong2/TIL/blob/main/R/Cleaning.md)
 - 통계 분석과 기본 그래프  
   - [기초통계량(Statistics)](https://github.com/soondong2/TIL/blob/main/R/Statistics.md)
-  
+- [정규분포와 중심극한정리](https://github.com/soondong2/TIL/tree/main/R)
+
 ## Python
  - [자료형(type)](https://github.com/soondong2/TIL/blob/main/Python/type.md)
  - [입출력(input)](https://github.com/soondong2/TIL/blob/main/Python/input.md)
