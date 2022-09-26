@@ -1,4 +1,4 @@
-# Today I Learned - 2022/06/02 Thu
+# Today I Learned - 2022/06/02 Thur
 
 # 이원배치 분산분석(Tow-way ANOVA)
 
