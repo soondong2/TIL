@@ -57,7 +57,7 @@ Today I Learned
     - [실험계획법(DOE)](https://github.com/soondong2/TIL/blob/main/Statistics/DOE.md)
   - 교차분석
     - [교차분석(Cross Tabulation Analysis)](https://github.com/soondong2/TIL/blob/main/Statistics/Cross%20Tabulation%20Analysis.md)
-  - [중심극한정리]()
+  - [중심극한정리(Central Limit Theorem)](https://github.com/soondong2/TIL/blob/main/Statistics/Central%20Limit%20Theorem.md)
 - 회귀분석
   - 단순선형회귀분석
   - 다중선형회귀분석
@@ -74,12 +74,14 @@ Today I Learned
   - 시계열 분해법
 - 다차원척도법
 - 주성분분석
+
 ## Machine Learning
 - 지도학습
   - 분류
   - 회귀
 - 비지도학습 
   - 군집화
+  - 연관분석
   - 차원축소
 - 모델 평가
 - 전처리
