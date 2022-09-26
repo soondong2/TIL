@@ -56,11 +56,8 @@ Today I Learned
     - [이원배치 분산분석(Two-way ANOVA)](https://github.com/soondong2/TIL/blob/main/Statistics/Tow-way%20ANOVA.md)
     - [실험계획법(DOE)](https://github.com/soondong2/TIL/blob/main/Statistics/DOE.md)
   - 교차분석
-    - 교차분석
-    - 적합도 검정
-    - 독립성 검정
-    - 동질성 검정
-  - 중심극한정리
+    - [교차분석(Cross Tabulation Analysis)](https://github.com/soondong2/TIL/blob/main/Statistics/Cross%20Tabulation%20Analysis.md)
+  - [중심극한정리]()
 - 회귀분석
   - 단순선형회귀분석
   - 다중선형회귀분석
