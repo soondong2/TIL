@@ -61,8 +61,8 @@ Today I Learned
     - [교차분석(Cross Tabulation Analysis)](https://github.com/soondong2/TIL/blob/main/Statistics/Cross%20Tabulation%20Analysis.md)
   - [중심극한정리(Central Limit Theorem)](https://github.com/soondong2/TIL/blob/main/Statistics/Central%20Limit%20Theorem.md)
 - 회귀분석
-  - [단순선형회귀분석](https://github.com/soondong2/TIL/blob/main/Statistics/Regression%20Analysis.md)
-  - 다중선형회귀분석
+  - [단순선형회귀분석(Regression Analysis)](https://github.com/soondong2/TIL/blob/main/Statistics/Regression%20Analysis.md)
+  - [다중선형회귀분석(Multiple Linear Regression Analysis)](https://github.com/soondong2/TIL/blob/main/Statistics/Multiple%20Linear%20Regression%20Analysis.md)
   - 최적회귀방정식
 - 고급회귀분석
   - 일반화 선형회귀
