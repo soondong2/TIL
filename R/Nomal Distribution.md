@@ -21,6 +21,16 @@ hist(df$column, col="sky blue", xlab="x 축 이름", main="제목")
 ```r
 boxplot(df$column, col="sky blue", main="제목")
 ```
+
+
+```r
+# 범주형 변수에 따른 boxplot 그리기
+# horizontal=TRUE는 수평이 아닌 수직으로 그리는 것을 의미한다.
+boxplot(연속형 ~ 범주형, data=df,
+        horizontal=TRUE, col=c("light green", "sky blue"),
+        ylab="y축", xlab="x축",
+        main="제목")
+```
 <br>
 
 ## 다중 그래프
