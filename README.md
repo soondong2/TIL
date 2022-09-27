@@ -63,7 +63,6 @@ Today I Learned
 - 회귀분석
   - [단순선형회귀분석(Regression Analysis)](https://github.com/soondong2/TIL/blob/main/Statistics/Regression%20Analysis.md)
   - [다중선형회귀분석(Multiple Linear Regression Analysis)](https://github.com/soondong2/TIL/blob/main/Statistics/Multiple%20Linear%20Regression%20Analysis.md)
-  - 최적회귀방정식
 - 고급회귀분석
   - 일반화 선형회귀
   - 회귀분석 영향력 진단
