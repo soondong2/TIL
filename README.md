@@ -8,7 +8,7 @@ Today I Learned
   - [데이터 정제(Data Cleaning)](https://github.com/soondong2/TIL/blob/main/R/Cleaning.md)
 - 통계 분석과 기본 그래프  
   - [기초통계량(Statistics)](https://github.com/soondong2/TIL/blob/main/R/Statistics.md)
-- [정규분포와 중심극한정리](https://github.com/soondong2/TIL/tree/main/R)
+- [정규분포와 중심극한정리(Nomal Distribution)](https://github.com/soondong2/TIL/blob/main/R/Nomal%20Distribution.md)
 - [가설검정(Hypothesis Test)](https://github.com/soondong2/TIL/blob/main/R/Hypothesis%20Test.md)
 - [상관분석(Correlation Analysis)](https://github.com/soondong2/TIL/blob/main/R/Correlation%20Analysis.md)
 ## Python
