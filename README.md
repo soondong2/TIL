@@ -64,7 +64,8 @@ Today I Learned
   - [단순선형회귀분석(Regression Analysis)](https://github.com/soondong2/TIL/blob/main/Statistics/Regression%20Analysis.md)
   - [다중선형회귀분석(Multiple Linear Regression Analysis)](https://github.com/soondong2/TIL/blob/main/Statistics/Multiple%20Linear%20Regression%20Analysis.md)
 - 고급회귀분석
-  - 일반화 선형회귀
+  - [정규화 선형회귀(Regularized Linear Regression)](https://github.com/soondong2/TIL/blob/main/Statistics/Regularized%20Linear%20Regression.md)
+  - [일반화 선형회귀(GLM)]()
   - 회귀분석 영향력 진단
   - 더빈 왓슨 검정
   - 벌점화된 선택기준
