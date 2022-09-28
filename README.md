@@ -9,8 +9,8 @@ Today I Learned
 - 통계 분석과 기본 그래프  
   - [기초통계량(Statistics)](https://github.com/soondong2/TIL/blob/main/R/Statistics.md)
 - [정규분포와 중심극한정리](https://github.com/soondong2/TIL/tree/main/R)
-- [가설검정](https://github.com/soondong2/TIL/blob/main/R/Hypothesis%20Test.md)
-
+- [가설검정(Hypothesis Test)](https://github.com/soondong2/TIL/blob/main/R/Hypothesis%20Test.md)
+- [상관분석(Correlation Analysis)](https://github.com/soondong2/TIL/blob/main/R/Correlation%20Analysis.md)
 ## Python
  - [자료형(type)](https://github.com/soondong2/TIL/blob/main/Python/type.md)
  - [입출력(input)](https://github.com/soondong2/TIL/blob/main/Python/input.md)
