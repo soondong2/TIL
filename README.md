@@ -65,10 +65,8 @@ Today I Learned
   - [다중선형회귀분석(Multiple Linear Regression Analysis)](https://github.com/soondong2/TIL/blob/main/Statistics/Multiple%20Linear%20Regression%20Analysis.md)
 - 고급회귀분석
   - [정규화 선형회귀(Regularized Linear Regression)](https://github.com/soondong2/TIL/blob/main/Statistics/Regularized%20Linear%20Regression.md)
-  - [일반화 선형회귀(GLM)]()
-  - 회귀분석 영향력 진단
-  - 더빈 왓슨 검정
-  - 벌점화된 선택기준
+  - [일반화 선형회귀(GLM)](https://github.com/soondong2/TIL/blob/main/Statistics/Generalized%20Linear%20Regression.md)
+  - [더빈 왓슨 검정(Durbin-Watson)]()
 - 시계열분석
   - 이동평균법
   - Box-Jenkins 방법
