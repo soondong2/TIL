@@ -66,7 +66,7 @@ Today I Learned
 - 고급회귀분석
   - [정규화 선형회귀(Regularized Linear Regression)](https://github.com/soondong2/TIL/blob/main/Statistics/Regularized%20Linear%20Regression.md)
   - [일반화 선형회귀(GLM)](https://github.com/soondong2/TIL/blob/main/Statistics/Generalized%20Linear%20Regression.md)
-  - [더빈 왓슨 검정(Durbin-Watson)]()
+  - [더빈 왓슨 검정(Durbin-Watson)](https://github.com/soondong2/TIL/blob/main/Statistics/Durbin%20Watson.md)
 - 시계열분석
   - 이동평균법
   - Box-Jenkins 방법
