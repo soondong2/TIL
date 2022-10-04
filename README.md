@@ -43,7 +43,7 @@ Today I Learned
 ## Statistics
 - 통계
   - [표본추출(Sampling)](https://github.com/soondong2/TIL/blob/main/Statistics/Sampling.md)
-  - [통게분석(Statistical Analysis)](https://github.com/soondong2/TIL/blob/main/Statistics/Statistical%20Analysis.md)
+  - [통계분석(Statistical Analysis)](https://github.com/soondong2/TIL/blob/main/Statistics/Statistical%20Analysis.md)
   - [확률분포(Probability Distribution)](https://github.com/soondong2/TIL/blob/main/Statistics/Probability%20Distribution.md)
   - [추정과 가설검정(Hypothesis Test)](https://github.com/soondong2/TIL/blob/main/Statistics/Hypothesis%20Test.md)
 - 기초 통계분석
@@ -51,9 +51,9 @@ Today I Learned
   - [상관분석(Correlation )](https://github.com/soondong2/TIL/blob/main/Statistics/Correlation%20Analysis.md)
 - 통계분석 방법론
   - t-검정
-    - [일표본 t-검정(one sample t-test)](https://github.com/soondong2/TIL/blob/main/Statistics/One%20sample%20t-test.md)
-    - [독립표본 t-검정(independent sample t-test](https://github.com/soondong2/TIL/blob/main/Statistics/Paired%20sample%20t-test.md)
-    - [대응표본 t-검정(paired sample t-test)](https://github.com/soondong2/TIL/tree/main/Statistics)
+    - [일표본 t-검정(One sample t-test)](https://github.com/soondong2/TIL/blob/main/Statistics/One%20sample%20t-test.md)
+    - [독립표본 t-검정(Independent sample t-test](https://github.com/soondong2/TIL/blob/main/Statistics/Paired%20sample%20t-test.md)
+    - [대응표본 t-검정(Paired sample t-test)](https://github.com/soondong2/TIL/blob/main/Statistics/Paired%20sample%20t-test.md)
   - 분산분석
     - [분산분석(ANOVA)](https://github.com/soondong2/TIL/blob/main/Statistics/ANOVA.md)
     - [일원배치 분산분석(One-way ANOVA)](https://github.com/soondong2/TIL/blob/main/Statistics/One-way%20ANOVA.md)
