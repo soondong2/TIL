@@ -11,6 +11,8 @@ Today I Learned
 - [정규분포와 중심극한정리(Nomal Distribution)](https://github.com/soondong2/TIL/blob/main/R/Nomal%20Distribution.md)
 - [가설검정(Hypothesis Test)](https://github.com/soondong2/TIL/blob/main/R/Hypothesis%20Test.md)
 - [상관분석(Correlation Analysis)](https://github.com/soondong2/TIL/blob/main/R/Correlation%20Analysis.md)
+- [회귀분석(Regression Analysis)](https://github.com/soondong2/TIL/blob/main/R/Regression%20Analysis.md)
+
 ## Python
  - [자료형(type)](https://github.com/soondong2/TIL/blob/main/Python/type.md)
  - [입출력(input)](https://github.com/soondong2/TIL/blob/main/Python/input.md)
