@@ -40,7 +40,7 @@ px.bar(df_1)  # 모든 컬럼에 대한 막대그래프 그리기
 ```
 <br>
 
-# facet_col을 이용한 서브플롯
+## facet_col을 이용한 서브플롯
 - `px..area` : 분포를 그린다.
 - `facet_col` : 서브플롯을 그려주는 기능을 한다.
 <br>
@@ -67,7 +67,7 @@ px.line(df, hover_data={"date" : "|%Y-%m-%d"} )
 ```
 <br>
 
-# Range Slider와 함께 시계열 그래프
+## Range Slider와 함께 시계열 그래프
 
 - 그래프를 `fig` 라는 변수에 담아준다.
 - `fig.update_xaxes(rangeslider_visible=True)` : Rangeslider를 볼 수 있다.
@@ -79,7 +79,7 @@ fig.show()
 ```
 <br>
 
-# Candlestick
+## Candlestick
 - 캔들스틱 차트(Candlestick chart) 또는 봉차트, 일본식 캔들스틱 차트는 주식을 비롯한 유가증권과 파생상품, 환율의 가격 움직임을 보여주는 금융 차트이다.
 - 캔들스틱 차트는 기술 통계학에서 사용되는 상자 수염 그림과 외적으로 유사하지만, 상자 수염 그림은 캔들스틱과 달리 금융이 아닌 다른 정보들을 표시한다.
 <br>
@@ -102,7 +102,7 @@ fig.show()
 ```
 <br>
 
-# OHLC(Open-High-Low-Close)
+## OHLC(Open-High-Low-Close)
 - fig.update_layout(xaxis_rangeslider_visible=True) : Rangeslider를 그린다.
 - fig.update_layout(xaxis_rangeslider_visible=False) : Rangeslider를 그리지 않느다.
 - True로 지정되거나 위 문구를 작성하지 않을 경우 Rangeslider가 포함된 그래프가 그려진다.
@@ -117,14 +117,14 @@ fig.show()
 ```
 <br>
 
-# lineplot
+## lineplot
 
 ```python
 px.line(df_ratio)
 px.line(df_ratio, facet_col="company")
 ```
 
-# areaplot
+## areaplot
 
 ```python
 px.area(df_ratio)
@@ -132,22 +132,22 @@ px.area(df_ratio, facet_col="company")
 px.line(tsla, x=tsla.index, y="Close", title="테슬라 종가")
 ```
 
-# 막대그래프
+## 막대그래프
 
 ```python
 px.bar(df_ratio)
 px.bar(df_ratio, facet_col="company")
 ```
 
-# scatterplot
+## scatterplot
 
 ```python
 px.scatter_matrix(df_ratio)
 ```
 
-# distribution
+## distribution
 
-## 1. box
+### 1. box
 
 - `points="all"` : 데이터 분포를 점으로 표현한다.
 - `notched=True` : 그래프의 모습이 바뀐다. (default = True)
@@ -159,7 +159,7 @@ px.box(df_ratio, x="ZM")
 px.box(df_ratio, x="ZM", points="all", notched=True)  # 아래 그래프에 해당
 ```
 
-## 2. violin
+### 2. violin
 
 - `points="all"` : 데이터 분포를 점으로 표현한다.
 - `box=True` : violin 그래프 안에 boxplot을 그려준다.
@@ -169,14 +169,14 @@ px.violin(df_ratio)
 px.violin(df_ratio, facet_col="company")
 ```
 
-## 3. strip
+### 3. strip
 
 ```python
 px.strip(df_ratio)
 px.strip(df_ratio, facet_col="company")
 ```
 
-## 4. histogram
+### 4. histogram
 
 ```python
 px.histogram(df_ratio)
@@ -188,4 +188,55 @@ px.histogram(df_ratio, facet_col="company", marginal="box")
 ```python
 px.histogram(tsla, x="Change", marginal="box")
 px.histogram(tsla, x="Change", marginal="violin")
+```
+<br>
+
+## graph_objects
+- subplot을 만들 수 있다.
+- go 는 hovertemplate을 update_traces로 안하고 각 그래프에서 지정해준다. 
+- 색 지정 역시 `marker=dict(color=)` 로 각각 지정해준다. 
+- fig.update_xaxes 와 fig.update_yaxes 는 사실 위에서 한 것 처엄 update_layout 안에서 한번에 진행해도 되는 것 같다.
+<br>
+
+### 1. subplot
+```python
+import plotly.graph_objects as go
+from plotly.subplots import make_subplots
+
+# subplot 만들기
+fig = make_subplots(rows=1, cols=2) #1X2 모양의 썹
+
+fig.add_trace(
+    go.Bar(
+        x='', y='',name='',marker_color='',
+        text='',customdata=[''],
+        hovertemplate=
+        "퍼센트: %{y}%<br>" +
+        "건수: %{customdata} 건"+
+        "<extra></extra>"),
+        row=1, col=1
+        )
+    
+fig.add_trace(
+    go.Bar(
+        x='', y='',name='',marker_color='',
+        text='',customdata=[''],
+        hovertemplate=
+        "퍼센트: %{y}%<br>" +
+        "건수: %{customdata} 건"+
+        "<extra></extra>"),
+        row=1, col=2
+        )
+
+fig.update_layout(barmode='group', height=600,width=1680, 
+                  showlegend=True,plot_bgcolor="#FFFFFF",
+                  legend=dict(orientation="h",yanchor= "top", y=1.1,xanchor= "left",x=0.01)
+                  )
+         
+fig.update_xaxes(visible=True, showticklabels= True)
+fig.update_yaxes(visible=False,showticklabels=False)
+
+fig.update_traces(textposition='outside', textfont_size=14) #그래프 취쪽에 %값 나오게
+
+fig.show()
 ```
