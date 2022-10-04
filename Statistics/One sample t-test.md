@@ -29,3 +29,23 @@ t = (x_bar - mu_0) / (s / sqrt(n)) ~ t(df),  df = n-1
 - 유의확률(`p-value`) > 유의수준(a) : 귀무가설을 기각할 수 없다.
 
 <br>
+
+## 예시
+샘플 A의 평균이 x와 다른가?
+<br>
+
+- 귀무가설 : A의 평균은 x와 같다.
+- 대립가설 : A의 평균은 x와 다르다.
+
+```python
+# library
+import scipy.stats as spst
+
+# 독립표본 t-test
+spst.ttest_1samp(A, popmean = 5)
+
+# 결과
+Ttest_1sampResult(statistic=5.810272049873847, pvalue=1.013619414110334e-08)
+```
+- 귀무가설을 기각한다. A와 x의 평균은 다르다. (귀무가설을 참이라는 전제하에 데이터가 관찰될 확률이 0.0....01% 정도이다.)
+- 신호/노이즈가 5.8, 즉 신호가 노이즈보다 5.8배 높다.
