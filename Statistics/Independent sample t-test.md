@@ -34,3 +34,16 @@
 ### 5. 기각여부
 - 유의확률(p-value) < 유의수준(alpha) : 귀무가설을 `기각`한다.
 - 유의확률(p-value) > 유의수준(alpha) : 귀무가설을 기각할 수 없다.
+<br>
+
+## 예시
+A와 B의 평균이 다른가?
+<br>
+
+```python
+# library
+import scipy.stats as spst
+
+# 독립표본 t-test
+spst.ttest_ind(A, B, equal_var=False) # equal_var는 등분산 여부를 의미, 모르면 False
+```
