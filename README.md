@@ -75,8 +75,18 @@ Today I Learned
 
 ## Machine Learning
 - 지도학습
-  - 분류
-  - 회귀
+  - 로지스틱 회귀분석
+  - 의사결정나무
+  - 나이브베이즈
+  - K-NN
+  - SVM
+  - 앙상블
+      - 보팅
+      - 부스팅
+      - 랜덤포레스트
+  - LGBM
+  - XGBoost
+  - Catboost
 - 비지도학습 
   - 군집화
   - 연관분석
