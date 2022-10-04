@@ -25,7 +25,7 @@ Today I Learned
   - [DataFrame](https://github.com/soondong2/TIL/blob/main/Data%20Analysis/Pandas.md)
 - EDA
   - [Seaborn](https://github.com/soondong2/TIL/blob/main/Data%20Analysis/Seaborn.md)
-  - [Matplotlib](https://github.com/soondong2/TIL/tree/main/Data%20Analysis)
+  - [Matplotlib](https://github.com/soondong2/TIL/blob/main/Data%20Analysis/Matplotlib.md)
   - [Pandas Profiling, sweetviz, autoviz](https://github.com/soondong2/TIL/blob/main/Data%20Analysis/Pandas%20Profiling%2C%20sweetviz%2C%20autoviz.md)
   - [Subplot](https://github.com/soondong2/TIL/blob/main/Data%20Analysis/EDA1.md)
   - [Plotly](https://github.com/soondong2/TIL/blob/main/Data%20Analysis/Plotly.md)
