@@ -68,8 +68,8 @@ Today I Learned
   - [일반화 선형회귀(GLM)](https://github.com/soondong2/TIL/blob/main/Statistics/Generalized%20Linear%20Regression.md)
   - [더빈 왓슨 검정(Durbin-Watson)](https://github.com/soondong2/TIL/blob/main/Statistics/Durbin%20Watson.md)
 - [시계열분석(Time Sireis Analysis)](https://github.com/soondong2/TIL/blob/main/Statistics/Time%20Series%20Analysis.md)
-- 다차원척도법
-- 주성분분석
+- [다차원척도법(Multidimensional Scaling)](https://github.com/soondong2/TIL/blob/main/Statistics/Multidimensional%20Scaling.md)
+- [주성분분석(Principal Component Analysis)]()
 
 ## Machine Learning
 - 지도학습
