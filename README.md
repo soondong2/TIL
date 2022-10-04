@@ -52,7 +52,7 @@ Today I Learned
 - 통계분석 방법론
   - t-검정
     - [일표본 t-검정(One sample t-test)](https://github.com/soondong2/TIL/blob/main/Statistics/One%20sample%20t-test.md)
-    - [독립표본 t-검정(Independent sample t-test](https://github.com/soondong2/TIL/blob/main/Statistics/Paired%20sample%20t-test.md)
+    - [독립표본 t-검정(Independent sample t-test](https://github.com/soondong2/TIL/blob/main/Statistics/Independent%20sample%20t-test.md)
     - [대응표본 t-검정(Paired sample t-test)](https://github.com/soondong2/TIL/blob/main/Statistics/Paired%20sample%20t-test.md)
   - 분산분석
     - [분산분석(ANOVA)](https://github.com/soondong2/TIL/blob/main/Statistics/ANOVA.md)
