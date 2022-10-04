@@ -41,7 +41,7 @@ t = (x_bar - mu_0) / (s / sqrt(n)) ~ t(df),  df = n-1
 # library
 import scipy.stats as spst
 
-# 독립표본 t-test
+# 표본 t-test
 spst.ttest_1samp(A, popmean = 5)
 
 # 결과
