@@ -40,4 +40,11 @@ t = (D - (u_x - u_y)) / (s_d / sqrt(n))  ~  t(df),  df = n-1
 
 <br>
 
-##
+## 예시
+```python
+# library
+import scipy.stats as spst
+
+# 대응표본
+spst.ttest_rel(before, after)
+```
