@@ -62,3 +62,72 @@ text(x=66, y=132, label="Y = -14.5475 + 2.3371X")
 ```r
 hist(df_lm$residuals, col="skyblue", xlab="residuals", main="제목")
 ```
+<br>
+
+## 2. 다중 회귀분석
+- 독립변수가 2개 이상일 경우에 사용한다.
+- y = ax1 + bx2 + c
+```r
+# 다중 회귀분석
+df_mlm <- lm(weight ~ egg_weight + movement + food, data=df)
+summary(df_mlm)
+```
+```r
+# 결과
+Call:
+lm(formula = weight ~ egg_weight + movement + food, data = df)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-3.2037 -1.3079  0.1826  1.2572  2.3647 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  2.974830   8.587203   0.346 0.731811    
+egg_weight   1.776350   0.194845   9.117  1.4e-09 ***
+movement    -0.008674   0.016631  -0.522 0.606417    
+food         1.584729   0.404757   3.915 0.000583 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1.681 on 26 degrees of freedom
+Multiple R-squared:  0.9479,	Adjusted R-squared:  0.9419 
+F-statistic: 157.7 on 3 and 26 DF,  p-value: < 2.2e-16
+```
+<br>
+
+1) movement의 p-value가 0.606417로 통계적으로 유의하지 않다. -> 해당 독립변수는 회귀분석에서 제외 시킨다.
+2) 수정된 결정계수가 0.9419 단순 회귀분석보다 높게 나타났다. -> movement 변수를 제외하고 다중 회귀분석을 실시하여 다시 평가한다.
+<br>
+
+```r
+df_mlm2 <- lm(weight ~ egg_weight + food, data=df)
+summary(df_mlm2)
+```
+```r
+Call:
+lm(formula = weight ~ egg_weight + food, data = df)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-3.0231 -1.2124  0.2445  1.3607  2.2352 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)   3.6638     8.3698   0.438 0.665052    
+egg_weight    1.7453     0.1830   9.536 3.89e-10 ***
+food          1.5955     0.3987   4.001 0.000441 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1.658 on 27 degrees of freedom
+Multiple R-squared:  0.9474,	Adjusted R-squared:  0.9435 
+F-statistic:   243 on 2 and 27 DF,  p-value: < 2.2e-16
+```
+<br>
+
+-> 수정된 결정계수(Adjusted R-squared)가 0.9435로 조금 더 높게 나타났다. 게다가 독립변수는 하나 더 줄어 회귀 모델은 간단해졌다.
+
+<br>
+
+## 3. 다중공선성
