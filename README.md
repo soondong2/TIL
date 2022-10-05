@@ -75,15 +75,15 @@ Today I Learned
 
 ## Machine Learning
 - 지도학습
-  - 로지스틱 회귀분석
-  - 의사결정나무
+  - 로지스틱 회귀분석(Logistic Regression)
+  - 의사결정나무(DecisionTree)
   - 나이브베이즈
-  - K-NN
-  - SVM
+  - 최근접이웃(K-NN)
+  - [서포트 벡터 머신(SVM)](https://github.com/soondong2/TIL/blob/main/ML/SVM.ipynb)
   - 앙상블
-      - 보팅
-      - 부스팅
-      - 랜덤포레스트
+      - 보팅(Voting)
+      - 부스팅(Boosting)
+      - 랜덤포레스트(RandomForest)
   - LGBM
   - XGBoost
   - Catboost
