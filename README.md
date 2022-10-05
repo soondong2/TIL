@@ -48,7 +48,7 @@ Today I Learned
   - [추정과 가설검정(Hypothesis Test)](https://github.com/soondong2/TIL/blob/main/Statistics/Hypothesis%20Test.md)
 - 기초 통계분석
   - [기술통계(Descriptive Statistics)](https://github.com/soondong2/TIL/blob/main/Statistics/Descriptive%20Statistics.md)
-  - [상관분석(Correlation )](https://github.com/soondong2/TIL/blob/main/Statistics/Correlation%20Analysis.md)
+  - [상관분석(Correlation)](https://github.com/soondong2/TIL/blob/main/Statistics/Correlation%20Analysis.md)
 - 통계분석 방법론
   - t-검정
     - [일표본 t-검정(One sample t-test)](https://github.com/soondong2/TIL/blob/main/Statistics/One%20sample%20t-test.md)
