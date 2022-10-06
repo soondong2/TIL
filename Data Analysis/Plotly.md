@@ -203,6 +203,7 @@ px.histogram(tsla, x="Change", marginal="violin")
 - `fig.add_trace` : 그래프 데이터 정보 저장 
 - `fig.update_layout` : 차트의 세부사항 설정 
 - `fig.show` : 화면에 띄우기
+<br>
 
 ```python
 import plotly.graph_objects as go
