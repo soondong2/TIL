@@ -196,9 +196,14 @@ px.histogram(tsla, x="Change", marginal="violin")
 - go 는 hovertemplate을 update_traces로 안하고 각 그래프에서 지정해준다. 
 - 색 지정 역시 `marker=dict(color=)` 로 각각 지정해준다. 
 - fig.update_xaxes 와 fig.update_yaxes 는 사실 위에서 한 것 처엄 update_layout 안에서 한번에 진행해도 되는 것 같다.
+
 <br>
 
-### 1. subplot
+- `fig` : 객체 선언 
+- `fig.add_trace` : 그래프 데이터 정보 저장 
+- `fig.update_layout` : 차트의 세부사항 설정 
+- `fig.show` : 화면에 띄우기
+
 ```python
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
@@ -236,7 +241,33 @@ fig.update_layout(barmode='group', height=600,width=1680,
 fig.update_xaxes(visible=True, showticklabels= True)
 fig.update_yaxes(visible=False,showticklabels=False)
 
-fig.update_traces(textposition='outside', textfont_size=14) #그래프 취쪽에 %값 나오게
+# 그래프 취쪽에 %값 나오게
+fig.update_traces(textposition='outside', textfont_size=14)
 
+fig.show()
+```
+<br>
+
+### diverging stacked bar(양방향 그래프)
+```python
+category_order = ['예','아니오']
+
+fig = go.Figure()
+
+for column in df.columns:
+    fig.add_trace(go.Bar(
+        x = df[column],
+        y = df.index,
+        name = column,
+        orientation = 'h',
+        marker_color = ['#8DA0CB','#FC8D62'][category_order.index(column)]
+    ))
+
+fig.update_layout(
+    barmode = 'relative',plot_bgcolor= '#FFFFFF',
+    yaxis={'visible': True, 'showticklabels': True, 'title':''},
+    xaxis={'visible': False, 'showticklabels': False},
+    legend=dict(yanchor="top", y=1.05,xanchor="left",x=0.0,orientation="h",font_size=12),
+)
 fig.show()
 ```
