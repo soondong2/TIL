@@ -92,6 +92,8 @@ Today I Learned
   - 연관분석
   - 차원축소
 - 모델 평가
+    - 분류
+    - 
 - 전처리
 
 ## Deep Learning
