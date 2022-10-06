@@ -76,7 +76,7 @@ Today I Learned
 ## Machine Learning
 - 지도학습
   - 로지스틱 회귀분석(Logistic Regression)
-  - 의사결정나무(DecisionTree)
+  - [의사결정나무(DecisionTree)](https://github.com/soondong2/TIL/blob/main/ML/Decision_Tree.ipynb)
   - 나이브베이즈
   - 최근접이웃(K-NN)
   - [서포트 벡터 머신(SVM)](https://github.com/soondong2/TIL/blob/main/ML/SVM.ipynb)
