@@ -118,5 +118,8 @@ Today I Learned
 ## 필사
 - [Spaceship Titanic](https://github.com/soondong2/TIL/blob/main/%ED%95%84%EC%82%AC/Spaceship_Titanic.ipynb)
 
+## 알고리즘 & 자료구조
+- [스택(Stack)](https://github.com/soondong2/TIL/blob/main/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%26%20%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/Stack.md)
+
 ## Coding Test
 - [코테 문제 풀이](https://github.com/soondong2/TIL/tree/main/Coding%20Test)
