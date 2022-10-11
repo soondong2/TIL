@@ -117,3 +117,6 @@ Today I Learned
 
 ## 필사
 - [Spaceship Titanic](https://github.com/soondong2/TIL/blob/main/%ED%95%84%EC%82%AC/Spaceship_Titanic.ipynb)
+
+## Coding Test
+- [코테 문제 풀이](https://github.com/soondong2/TIL/tree/main/Coding%20Test)
