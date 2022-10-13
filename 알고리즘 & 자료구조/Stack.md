@@ -30,7 +30,7 @@ class Stack:
 ```
 <br>
 
-## 괄호 맞추기
+## 1. 괄호 맞추기
 - 입력 : 왼쪽, 오른쪽 괄호의 문자열
 - 출력 : 괄호 쌍이 맞으면 True, 아니면 False
 - 왼쪽 괄호는 나의 쌍이 나타날 때까지 Stack에서 대기한다.
@@ -51,7 +51,7 @@ def stack(parseq):
             else:
                 S.pop()
         else:
-            print("Not alllwed symbol")
+            print("Not allowed symbol")
 
     if len(S) > 0:
         print("False")
@@ -60,6 +60,35 @@ def stack(parseq):
 
 stack(parseq)
 ```
+
+<br>
+
+### deque를 활용한 stack
+```python
+from collections import deque
+
+parseq = "()("
+def solution(parseq):
+    stack = deque()
+    for p in parseq:
+        if p == "(":
+            stack.append(p)
+        elif p == ")":
+            if len(stack) == 0:
+                return False
+            else:
+                stack.pop()
+        else:
+            print("Not allwed symbol")
+
+    if len(stack) > 0:
+        return False
+    else:
+        return True
+
+print(solution(parseq))
+```
+
 <br>
 
 ## 계산기 코드
