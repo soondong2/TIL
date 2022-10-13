@@ -1,7 +1,8 @@
 # Today I Learned - 2022/10/13 Tur
 
 # 올바른 괄호
-- 출처 : 
+- 출처 : https://school.programmers.co.kr/learn/courses/30/lessons/12909
+- 난이도 : Level2
 <br>
 
 ## 풀이
