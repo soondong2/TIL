@@ -1,4 +1,4 @@
-# Today I Learned - 2022/10/13 Tur
+# Today I Learned - 2022/10/13 Thur
 
 # 올바른 괄호
 - 출처 : https://school.programmers.co.kr/learn/courses/30/lessons/12909
