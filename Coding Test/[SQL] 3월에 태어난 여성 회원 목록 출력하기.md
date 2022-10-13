@@ -1,4 +1,4 @@
-# Today I Learned - 2022/10/13 Tur
+# Today I Learned - 2022/10/13 Thur
 
 # 3월에 태어난 여성 회원 목록 출력하기
 - 출처 : https://school.programmers.co.kr/learn/courses/30/lessons/131120
