@@ -1,4 +1,4 @@
-# Today I Learned - 2022/10/13 Tur
+# Today I Learned - 2022/10/13 Thur
 
 # 강원도에 위치한 생산공장 목록 출력하기
 - 출처 : https://school.programmers.co.kr/learn/courses/30/lessons/131112
