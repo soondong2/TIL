@@ -17,7 +17,7 @@
 <br>
 
 ## 단일 연결 리스트(Singly Linked List)
-### Push Front, Push Back
+### Push Front, Push Back, Pop Front, Pop Back
 ```python
 # 단일 연결 리스트
 class SinglyLinkedList:
