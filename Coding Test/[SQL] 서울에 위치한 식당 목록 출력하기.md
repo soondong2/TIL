@@ -1,0 +1,22 @@
+# Today I Learned- 2022/10/24 Mon
+
+# 서울에 위치한 식당 목록 출력하기
+- 출처 : https://school.programmers.co.kr/learn/courses/30/lessons/131118
+- 난이도 : Level4
+<br>
+
+## 풀이
+```sql
+SELECT
+    INFO.REST_ID,
+    INFO.REST_NAME,
+    INFO.FOOD_TYPE,
+    INFO.FAVORITES,
+    INFO.ADDRESS,
+    ROUND(AVG(REVIEW_SCORE), 2) AS SCORE
+FROM REST_INFO AS INFO INNER JOIN REST_REVIEW AS REVIEW
+ON INFO.REST_ID = REVIEW.REST_ID
+WHERE ADDRESS LIKE '서울%'
+GROUP BY INFO.REST_ID
+ORDER BY SCORE DESC, INFO.FAVORITES DESC;
+```
