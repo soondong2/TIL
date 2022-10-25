@@ -83,7 +83,7 @@ Today I Learned
   - 앙상블
       - 보팅(Voting)
       - 부스팅(Boosting)
-      - 랜덤포레스트(RandomForest)
+      - [랜덤포레스트(RandomForest)](https://github.com/soondong2/TIL/blob/main/ML/RandomForest.ipynb)
   - LGBM
   - XGBoost
   - Catboost
