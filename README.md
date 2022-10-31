@@ -116,9 +116,9 @@ Today I Learned
     - [문제풀이6](https://github.com/soondong2/TIL/blob/main/%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EA%B8%B0%EC%82%AC/question6.md)
 
 ## 경진대회 참여 및 필사
-- [Spaceship Titanic](https://github.com/soondong2/TIL/blob/main/%ED%95%84%EC%82%AC/Spaceship_Titanic.ipynb)
-- []()
-- []()
+- [Spaceship Titanic](https://github.com/soondong2/TIL/blob/main/Competition%20%26%20%ED%95%84%EC%82%AC/Spaceship%20Titanic.ipynb)
+- [소비자 데이터 기반 소비 예측 경진대회](https://github.com/soondong2/TIL/blob/main/Competition%20%26%20%ED%95%84%EC%82%AC/%EC%86%8C%EB%B9%84%EC%9E%90%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EA%B8%B0%EB%B0%98%20%EC%86%8C%EB%B9%84%20%EC%98%88%EC%B8%A1%20%EA%B2%BD%EC%A7%84%EB%8C%80%ED%9A%8C%20.ipynb)
+- [전복 나이 예측 경진대회](https://github.com/soondong2/TIL/blob/main/Competition%20%26%20%ED%95%84%EC%82%AC/%EC%A0%84%EB%B3%B5%20%EB%82%98%EC%9D%B4%20%EC%98%88%EC%B8%A1%20%EA%B2%BD%EC%A7%84%20%EB%8C%80%ED%9A%8C.ipynb)
 
 ## 알고리즘 & 자료구조
 - [스택(Stack)](https://github.com/soondong2/TIL/blob/main/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%26%20%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/Stack.md)
