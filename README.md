@@ -115,8 +115,10 @@ Today I Learned
     - [문제풀이5](https://github.com/soondong2/TIL/blob/main/%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EA%B8%B0%EC%82%AC/question5.md)
     - [문제풀이6](https://github.com/soondong2/TIL/blob/main/%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EA%B8%B0%EC%82%AC/question6.md)
 
-## 필사
+## 경진대회 참여 및 필사
 - [Spaceship Titanic](https://github.com/soondong2/TIL/blob/main/%ED%95%84%EC%82%AC/Spaceship_Titanic.ipynb)
+- []()
+- []()
 
 ## 알고리즘 & 자료구조
 - [스택(Stack)](https://github.com/soondong2/TIL/blob/main/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%26%20%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/Stack.md)
