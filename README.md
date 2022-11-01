@@ -80,10 +80,9 @@ Today I Learned
   - 나이브베이즈
   - 최근접이웃(K-NN)
   - [서포트 벡터 머신(SVM)](https://github.com/soondong2/TIL/blob/main/ML/SVM.ipynb)
-  - 앙상블
-      - 보팅(Voting)
-      - 부스팅(Boosting)
-      - [랜덤포레스트(RandomForest)](https://github.com/soondong2/TIL/blob/main/ML/RandomForest.ipynb)
+  - 보팅(Voting)
+  - [그래디언트부스팅(GradientBoosting)](https://github.com/soondong2/TIL/blob/main/ML/GradientBoosting.ipynb)
+  - [랜덤포레스트(RandomForest)](https://github.com/soondong2/TIL/blob/main/ML/RandomForest.ipynb)
   - LGBM
   - XGBoost
   - Catboost
