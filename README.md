@@ -76,15 +76,11 @@ Today I Learned
 ## Machine Learning
 - 지도학습
   - 로지스틱 회귀분석(Logistic Regression)
-  - [의사결정나무(DecisionTree)](https://github.com/soondong2/TIL/blob/main/ML/Decision_Tree.ipynb)
+  - [의사결정나무(DecisionTree)](https://github.com/soondong2/TIL/blob/main/ML/Decision%20Tree.ipynb)
   - 나이브베이즈
   - 최근접이웃(K-NN)
   - [서포트 벡터 머신(SVM)](https://github.com/soondong2/TIL/blob/main/ML/SVM.ipynb)
-  - 보팅(Voting)
-  - [그래디언트부스팅(GradientBoosting)](https://github.com/soondong2/TIL/blob/main/ML/GradientBoosting.ipynb)
-  - [랜덤포레스트(RandomForest)](https://github.com/soondong2/TIL/blob/main/ML/RandomForest.ipynb)
-  - LGBM
-  - XGBoost
+  - [앙상블(Ensemble)](https://github.com/soondong2/TIL/blob/main/ML/Ensemble.ipynb)
   - Catboost
 - 비지도학습 
   - 군집화
@@ -92,7 +88,7 @@ Today I Learned
   - 차원축소
 - 모델 평가
     - 분류
-    - 
+    - 회귀
 - 전처리
 
 ## Deep Learning
