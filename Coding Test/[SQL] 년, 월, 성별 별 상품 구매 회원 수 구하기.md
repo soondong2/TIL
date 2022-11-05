@@ -19,4 +19,4 @@ HAVING U.GENDER IS NOT NULL
 ORDER BY YEAR ASC, MONTH ASC, GENDER ASC;
 ```
 - 동일한 날짜, 회원 ID, 상품 ID 조합에 대해서는 하나의 판매 데이터만 존재합니다.
-- 위 문구는 `DISTINCT`로 
+- 위 문구는 `DISTINCT`로 중복을 제거해줘야 한다.
