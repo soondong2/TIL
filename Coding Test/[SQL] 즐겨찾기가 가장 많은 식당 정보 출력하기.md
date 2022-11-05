@@ -1,7 +1,7 @@
 # Today I Learned - 2022/11/05 Sum
 
 # 즐겨찾기가 가장 많은 식당 정보 출력하기
-- 출처 : 
+- 출처 : https://school.programmers.co.kr/learn/courses/30/lessons/131123
 - 난이도 : Level3
 <br>
 
