@@ -2,7 +2,7 @@
 
 # 그룹별 조건에 맞는 식당 목록 출력하기
 - 출처 : https://school.programmers.co.kr/learn/courses/30/lessons/131124
-- 난이도 : Levvel4
+- 난이도 : Level4
 <br>
 
 ## 풀이
