@@ -1,4 +1,4 @@
-# Today I Learned - 2022/11/05 Sun
+# Today I Learned - 2022/11/05 Sat
 
 # 식품분류별 가장 비싼 식품의 정보 조회하기
 - 출처 : https://school.programmers.co.kr/learn/courses/30/lessons/131116
