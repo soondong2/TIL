@@ -1,7 +1,7 @@
 # Today I Learned - 2022/11/06 Sun
 
 # 이름이 있는 동물의 아이디
-- 출처 : 
+- 출처 : https://school.programmers.co.kr/learn/courses/30/parts/17045
 - 난이도 : Level1
 <br>
 
