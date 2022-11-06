@@ -1,4 +1,4 @@
-# Today I Learned - 2022/11/05 Sun
+# Today I Learned - 2022/11/05 Sat
 
 # 년, 월, 성별 별 상품 구매 회원 수 구하기
 - 출처 : https://school.programmers.co.kr/learn/courses/30/lessons/131532
