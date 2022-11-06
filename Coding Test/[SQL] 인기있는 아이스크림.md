@@ -1,4 +1,4 @@
-# Today I Learned - 2022/11/05 Sun
+# Today I Learned - 2022/11/05 Sat
 
 # 인기있는 아이스크림
 - 출처 : 
