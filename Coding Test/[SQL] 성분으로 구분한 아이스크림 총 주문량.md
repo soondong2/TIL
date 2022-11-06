@@ -1,4 +1,4 @@
-# Today I Learned - 2022/11/05 Sun
+# Today I Learned - 2022/11/05 Sat
 
 # 성분으로 구분한 아이스크림 총 주문량
 - 출처 : https://school.programmers.co.kr/learn/courses/30/lessons/133026
