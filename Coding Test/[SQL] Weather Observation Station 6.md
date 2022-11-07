@@ -2,7 +2,7 @@
 
 # Weather Observation Station 6
 - 출처 : https://www.hackerrank.com/challenges/weather-observation-station-6/problem?isFullScreen=true
-- 난이도 : Basic - easy
+- 난이도 : Basic(easy)
 <br>
 
 ## 풀이
