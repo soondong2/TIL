@@ -1,7 +1,7 @@
 # Today I Learned - 2022/11/08 Tue
 
 # New Companies
-- 출처 : 
+- 출처 : https://www.hackerrank.com/challenges/the-company/problem?isFullScreen=true
 - 난이도 : Intermediate(Medium)
 <br>
 
