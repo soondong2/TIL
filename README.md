@@ -83,12 +83,13 @@ Today I Learned
   - [앙상블(Ensemble)](https://github.com/soondong2/TIL/blob/main/ML/Ensemble.ipynb)
   - Catboost
 - 비지도학습 
-  - 군집화
+  - 군집분석
   - 연관분석
   - 차원축소
 - 모델 평가
     - 분류
     - 회귀
+- 교차검증
 - 전처리
 
 ## Deep Learning
