@@ -11,3 +11,8 @@ SELECT C.name AS Customers
 FROM Customers AS C LEFT OUTER JOIN Orders AS O ON C.id = O.customerId
 WHERE O.customerId IS NULL
 ```
+```sql
+SELECT name AS Customers
+FROM Customers 
+WHERE id NOT IN (SELECT customerID FROM Orders)
+```
