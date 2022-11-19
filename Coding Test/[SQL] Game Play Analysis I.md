@@ -2,7 +2,7 @@
 
 # Game Play Analysis I
 - 출처 : https://leetcode.com/problems/game-play-analysis-i/
-- 난이도 : 
+- 난이도 : Easy
 <br>
 
 ## 풀이
