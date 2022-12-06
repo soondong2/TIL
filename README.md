@@ -85,7 +85,7 @@ Today I Learned
 - 비지도학습 
   - 군집분석
   - 연관분석
-  - 차원축소
+  - [차원축소(Dimension Reduction)](https://github.com/soondong2/TIL/blob/main/ML/Dimension%20Reduction.ipynb)
 - 모델 평가
     - 분류
     - 회귀
