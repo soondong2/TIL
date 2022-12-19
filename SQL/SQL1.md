@@ -28,7 +28,7 @@ ORDER BY
 <br>
 
 ## 📝 SQL문 실행 순서
-### FROM -> WHERE -> GROUP BY -> HAVING -> SELECT -> ORDER BY
+### FROM -> WHERE -> GROUP BY -> SELECT -> HAVING -> ORDER BY
 <br>
 
 ## SELECT / WHERE
