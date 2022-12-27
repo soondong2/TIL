@@ -39,7 +39,8 @@ Today I Learned
 - [streamlit](https://github.com/soondong2/TIL/blob/main/Data%20Analysis/streamlit.md)
 - 대용량 데이터 처리
   - [Downcast](https://github.com/soondong2/TIL/blob/main/Data%20Analysis/Downcast.md)
-  - [Apache Parquet](https://github.com/soondong2/TIL/blob/main/Data%20Analysis/Apache%20Parquet.md) 
+  - [Apache Parquet](https://github.com/soondong2/TIL/blob/main/Data%20Analysis/Apache%20Parquet.md)
+- [코호트분석(Cohort Analysis)](https://github.com/soondong2/TIL/blob/main/Data%20Analysis/%EC%BD%94%ED%98%B8%ED%8A%B8%EB%B6%84%EC%84%9D(Cohort_Analysis).ipynb)
 ## Statistics
 - 통계
   - [표본추출(Sampling)](https://github.com/soondong2/TIL/blob/main/Statistics/Sampling.md)
