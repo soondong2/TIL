@@ -104,7 +104,7 @@ Today I Learned
   - [JOIN](https://github.com/soondong2/TIL/blob/main/SQL/JOIN.md)
   - [Window Function](https://github.com/soondong2/TIL/blob/main/SQL/Window%20Function.md)
   - [WITH RECURSIVE](https://github.com/soondong2/TIL/blob/main/SQL/WITH%20RECURSIVE.md)
-  
+  - [그룹함수와 집계함수](https://github.com/soondong2/TIL/blob/main/SQL/%EA%B7%B8%EB%A3%B9%ED%95%A8%EC%88%98%EC%99%80%20%EC%A7%91%EA%B3%84%ED%95%A8%EC%88%98.md)
 ## Certificate
 - 빅데이터분석기사
   - 작업형 1유형
