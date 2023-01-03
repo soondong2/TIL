@@ -61,7 +61,7 @@ SELECT
   학번, 이름, 점수, 
   RANK() OVER(ORDER BY 점수 DESC) AS '순위1',
   DENSE_RANK() OVER(ORDER BY 점수 DESC) AS '순위1',
-  ROW_NUMBER OVER(ORDER BY 점수 DESC) AS '순위3'
+  ROW_NUMBER() OVER(ORDER BY 점수 DESC) AS '순위3'
 FROM 학생;
 ```
 |학번|이름|점수|순위1|순위2|순위3|
