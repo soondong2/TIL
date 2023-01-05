@@ -121,11 +121,13 @@ Today I Learned
 - [Spaceship Titanic](https://github.com/soondong2/TIL/blob/main/Competition%20%26%20%ED%95%84%EC%82%AC/Spaceship%20Titanic.ipynb)
 - [소비자 데이터 기반 소비 예측 경진대회](https://github.com/soondong2/TIL/blob/main/Competition%20%26%20%ED%95%84%EC%82%AC/%EC%86%8C%EB%B9%84%EC%9E%90%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EA%B8%B0%EB%B0%98%20%EC%86%8C%EB%B9%84%20%EC%98%88%EC%B8%A1%20%EA%B2%BD%EC%A7%84%EB%8C%80%ED%9A%8C%20.ipynb)
 - [전복 나이 예측 경진대회](https://github.com/soondong2/TIL/blob/main/Competition%20%26%20%ED%95%84%EC%82%AC/%EC%A0%84%EB%B3%B5%20%EB%82%98%EC%9D%B4%20%EC%98%88%EC%B8%A1%20%EA%B2%BD%EC%A7%84%20%EB%8C%80%ED%9A%8C.ipynb)
+- [Customer Segmentation with RFM](https://github.com/soondong2/TIL/blob/main/Competition%20%26%20%ED%95%84%EC%82%AC/Customer%20Segmentation%20with%20RFM.ipynb)
 
 ## 알고리즘 & 자료구조
 - [스택(Stack)](https://github.com/soondong2/TIL/blob/main/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%26%20%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/Stack.md)
 - [큐(Queue)](https://github.com/soondong2/TIL/blob/main/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%26%20%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/Queue.md)
 - 연결리스트
   - [단일 연결 리스트(Singly Linked List)](https://github.com/soondong2/TIL/blob/main/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%26%20%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/Singly%20Linked%20List.md)
+  
 ## Coding Test
 - [코테 문제 풀이](https://github.com/soondong2/TIL/tree/main/Coding%20Test)
