@@ -107,6 +107,8 @@ Today I Learned
   - [그룹함수와 집계함수](https://github.com/soondong2/TIL/blob/main/MySQL/%EA%B7%B8%EB%A3%B9%ED%95%A8%EC%88%98%EC%99%80%20%EC%A7%91%EA%B3%84%ED%95%A8%EC%88%98.md)
 - PostgreSQL
   - [설치 및 실행](https://github.com/soondong2/TIL/blob/main/PostgreSQL/%EC%84%A4%EC%B9%98%20%EB%B0%8F%20%EC%8B%A4%ED%96%89.md)
+  - [DISTINCT](https://github.com/soondong2/TIL/blob/main/PostgreSQL/DISTINCT.md)
+  
 ## Certificate
 - 빅데이터분석기사
   - 작업형 1유형
