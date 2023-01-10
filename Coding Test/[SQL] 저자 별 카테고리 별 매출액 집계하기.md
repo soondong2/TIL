@@ -16,6 +16,5 @@ FROM book AS A
     INNER JOIN book_sales AS C ON A.book_id = C.book_id
 WHERE C.sales_date REGEXP '2022-01'
 GROUP BY author_id, author_name, category
-ORDER BY author_id ASC, category DESC;;
-
+ORDER BY author_id ASC, category DESC;
 ```
