@@ -86,7 +86,7 @@ Today I Learned
   - Catboost
 - 비지도학습 
   - 군집분석
-  - 연관분석
+  - [연관분석(Association Analysis)](https://github.com/soondong2/TIL/blob/main/ML/Association%20Analysis.ipynb)
   - [차원축소(Dimension Reduction)](https://github.com/soondong2/TIL/blob/main/ML/Dimension%20Reduction.ipynb)
 - 모델 평가
     - 분류
