@@ -40,8 +40,9 @@ Today I Learned
 - 대용량 데이터 처리
   - [Downcast](https://github.com/soondong2/TIL/blob/main/Data%20Analysis/Downcast.md)
   - [Apache Parquet](https://github.com/soondong2/TIL/blob/main/Data%20Analysis/Apache%20Parquet.md)
-- [코호트분석(Cohort Analysis)](https://github.com/soondong2/TIL/blob/main/Data%20Analysis/%EC%BD%94%ED%98%B8%ED%8A%B8%EB%B6%84%EC%84%9D(Cohort_Analysis).ipynb)
-- [퍼널분석(Funnel Analysis)](https://github.com/soondong2/TIL/blob/main/Data%20Analysis/%ED%8D%BC%EB%84%90%20%EB%B6%84%EC%84%9D(Funnel%20Analysis).ipynb)
+- [코호트 분석(Cohort Analysis)](https://github.com/soondong2/TIL/blob/main/Data%20Analysis/%EC%BD%94%ED%98%B8%ED%8A%B8%EB%B6%84%EC%84%9D(Cohort_Analysis).ipynb)
+- [퍼널 분석(Funnel Analysis)1](https://github.com/soondong2/TIL/blob/main/Data%20Analysis/%ED%8D%BC%EB%84%90%20%EB%B6%84%EC%84%9D(Funnel%20Analysis).ipynb)
+- [퍼널 분석(Funnel Analysis)2](https://github.com/soondong2/TIL/blob/main/Data%20Analysis/%ED%8D%BC%EB%84%90%20%EB%B6%84%EC%84%9D(Funnel%20Analysis)_2.ipynb)
 - [AARRR](https://github.com/soondong2/TIL/blob/main/Data%20Analysis/AARRR.md)
 ## Statistics
 - 통계
