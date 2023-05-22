@@ -16,7 +16,7 @@ def solution(tickets):
     for start, end in tickets:
         graph[start].append(end)
     
-    # 도착치 알파벳 오름차순 정렬
+    # 도착치 알파벳 내림차순 정렬
     for start in graph.keys():
         graph[start].sort(reverse=True)
     
