@@ -26,3 +26,33 @@ def solution(n, computers):
             
     return answer
 ```
+
+### BFS
+```python
+from collections import deque
+
+def bfs(n, computers, visited, i):
+    visited[i] = True
+    
+    queue = deque()
+    queue.append(i)
+    
+    while queue:
+        i = queue.popleft()
+        visited[i] = True
+        for j in range(n):
+            if i != j and computers[i][j] == 1:
+                if visited[j] == False:
+                    queue.append(j)
+            
+def solution(n, computers):
+    answer = 0
+    visited = [False for i in range(n)]
+    
+    for i in range(n):
+        if visited[i] == False:
+            bfs(n, computers, visited, i)
+            answer += 1
+            
+    return answer
+```
